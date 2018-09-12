@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+
+int main() {
+    char command[1024];
+
+    void read(char *command){
+        scanf("%s", command);
+    }
+    while(1){
+        read(command);
+        system(command);
+    }
+}
