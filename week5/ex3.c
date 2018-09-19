@@ -24,8 +24,6 @@ void *produce()
 }
 void *consume()
 {
-
-    sleep(15);
     while(1)
     {
         if(counter > 0)
