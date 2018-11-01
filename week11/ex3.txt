@@ -1,0 +1,2 @@
+First variant of the program will print "Hello" 2 times because of line buffering; stdout will print data at once when a newline character is inserted.
+Second variant of the program will print "Hello" 1 time.
